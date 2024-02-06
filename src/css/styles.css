@@ -1,0 +1,133 @@
+
+* {
+    margin: 0 auto;
+}
+
+body {
+    background: #F2F6FA;
+    font-family: Roboto, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin: 10vh 0 5vh 0;
+    color: #374050;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 11px;
+}
+
+h2, h3 ,h4 {
+    margin: 20px 0 10px 0;
+    color: #FFFFFF;
+}
+
+td {
+    text-align: center;
+    margin-top: 15px;
+}
+
+th {
+    width: 10vw;
+    border-bottom: 1px solid #C4C4C4;
+    padding: 20px 10px 5px 10px;
+}
+
+tbody {
+    padding-top: 20px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+input {
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+select {
+    cursor: pointer;
+}
+
+dialog {
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border: 1px solid #000;
+    background: #374050;
+    width: 50%;
+    min-height: 387px;
+    padding: 20px;
+    color: #F2F6FA;
+}
+
+.gcContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh 5vw 5vh 5vw;
+}
+
+.gcFilterBar {
+    background: #374050;
+    color: #F2F6FA;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    margin-right: 20px;
+    padding: 2%;
+}
+
+.gcTableDashboard {
+    flex-grow: 1;
+    background-color: #FFF;
+    border-radius: 10px;
+    color: #6E6E6F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 11px;
+    width: 60%;
+    padding: 2%;
+}
+
+#loading {
+    display: none;
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.card-details-btn {
+    cursor: pointer;
+    color: #0FC5FF;
+    text-decoration: underline;
+    display: block;
+}
+
+.used-option {
+    display: none;
+}
+
+.gc-btn {
+    color: #FFF;
+    font-family: Roboto, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 11px;
+    border-radius: 6px;
+    background: #0FC5FF;
+    padding: 10px 43px;
+    margin: 5vh 0 0 40%;
+    cursor: pointer;
+}
+
+.gc-btn:hover {
+    background: #0FC5FF;
+    color: cornsilk;
+}
+
+
